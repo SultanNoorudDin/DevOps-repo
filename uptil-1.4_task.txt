@@ -1,0 +1,575 @@
+sultan-nooruddin@sultan:~$ history
+    1  lsblk
+    2  sudo shutdown now
+    3  google-chrome
+    4  sudo poweroff
+    5  google-chrome
+    6  sudo poweroff
+    7  sudo shutdown -h now
+    8  apt btop
+    9  ls
+   10  python -V
+   11  ls
+   12  cat Desktop
+   13  echo file > 123
+   14  cat file
+   15  ls
+   16  cat 123
+   17  ls 123
+   18  sudo apt get update
+   19  sudo poweroff
+   20  ls
+   21  ps aux | grep python
+   22  ls
+   23  lsblk
+   24  cls
+   25  clear
+   26  lsblk
+   27  lsblk -o NAME,SIZE,TYPE,MOUNTPOINTS,MODELDDDDDDDDDDD
+   28  findmnt /
+   29  lsblk -o NAME,SIZE,TYPE,MOUNTPOINTS,MODEL
+   30  sudo wipefs -a /dev/sda
+   31  sudo umount /dev/sda1 2>/dev/null
+   32  sudo umount /dev/sda2 2>/dev/null
+   33  sudo umount /dev/sda3 2>/dev/null
+   34  sudo umount /dev/sda1 2>/dev/null
+   35  sudo umount /dev/sda2 2>/dev/null
+   36  sudo umount /dev/sda3 2>/dev/null
+   37  sudo wipefs -a /dev/sda
+   38  lsblk -o NAME,SIZE,TYPE,MOUNTPOINTS,MODEL
+   39  sudo fuser -vm /dev/sda
+   40  sudo fuser -kim /dev/sda
+   41  lbkl
+   42  lsblk
+   43  ltan-nooruddin@sultan:~$ sudo fuser -vm /dev/sda
+   44  sultan-nooruddin@sultan:~$ sudo fuser -vm /dev/sda
+   45  sultan-nooruddin@sultan:~$ 
+   46  lsblk -f /dev/sda
+   47  sudo blkid /dev/sda1
+   48  top
+   49  lsblk
+   50  sudo wipefs -a /dev/sda
+   51  lsblk -o NAME,SIZE,TYPE,FSTYPE,MOUNTPOINTS,MODEL
+   52  cat /proc/swaps
+   53  ls /sys/class/block/sda/holders/
+   54  sudo fdisk /dev/sda
+   55  sudo fdisk -l /dev/sda
+   56  dmesg | tail -50
+   57  sudo killall -9 gnome-disks
+   58  sudo apt update && sudo apt install exfatprogs -y
+   59  sudo umount /dev/sda* 2>/dev/null
+   60  sudo wipefs --all /dev/sda
+   61  sudo umount -f /dev/sda* 2>/dev/null
+   62  sudo vgchange -an 2>/dev/null
+   63  sudo dmsetup remove_all -f 2>/dev/null
+   64  sudo dd if=/dev/zero of=/dev/sda bs=1M count=10 status=progress conv=fsync
+   65  lsbkl
+   66  lsblk
+   67  sudo shutdown now
+   68  sudo poweroff
+   69  dotnet
+   70  cd Downloads/
+   71  mkdir -p $HOME/dotnet && tar zxf dotnet-sdk-10.0.401-linux-x64.tar.gz -C $HOME/dotnet
+   72  dotnet
+   73  sudo apt install dotnet-host-10.0
+   74  poweroff
+   75  curl -fsS https://dl.brave.com/install.sh | sh
+   76  sudo apt install curl
+   77  curl -fsS https://dl.brave.com/install.sh | sh
+   78  sudo apt install curl
+   79  sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
+   80  sudo curl -fsSLo /etc/apt/sources.list.d/brave-browser-release.sources https://brave-browser-apt-release.s3.brave.com/brave-browser.sources
+   81  sudo apt update
+   82  sudo apt install brave-browser
+   83  poweroff
+   84  apt-get install git
+   85  sudo apt update
+   86  sudo apt install git -y
+   87  git --version
+   88  git config --global user.name Sultan
+   89  git config --global user.email sultannooruddin4@gmail.com
+   90  git config list
+   91  git bash
+   92  bash
+   93  ls
+   94  cd
+   95  ls | grep -i passwd
+   96  ls
+   97  ls /
+   98  cd etc
+   99  cd /etc
+  100  ls
+  101  ls | grep -i passwd
+  102  cat passwd
+  103  ls | grep -i ubuntu
+  104  cat passwd 1
+  105  cat passwd | grep -i ubuntu
+  106  ls | grep -i ubuntu
+  107  ls | grep -i passwd
+  108  cat passwd | grep -i ubuntu
+  109  cd passwd
+  110  cat passwd- | grep -i ubuntu
+  111  cat passwd
+  112  sudo apt install git-gui gitk -y
+  113  pwd
+  114  ls
+  115  cd Downloads/
+  116  ls
+  117  cd ..
+  118  pwd
+  119  cd /
+  120  chmod 400 linux-fundamentals.pem
+  121  cd Downloads/
+  122  ls
+  123  cd bin
+  124  pwd
+  125  cd ..
+  126  ls
+  127  cd ~
+  128  ls
+  129  cd Downloads/
+  130  ls
+  131  chmod 400 linux-fundamentals.pem
+  132  chmod 400 linux-fundamental.pem
+  133  ssh -i "linux-fundamental.pem" ubuntu@ec2-3-25-171-138.ap-southeast-2.compute.amazonaws.com
+  134  cd ~
+  135  cat /etc/os-release
+  136  lsb_release -a
+  137  uname
+  138  uname -a
+  139  uname -r
+  140  lscpu | head -n 8
+  141  free -h
+  142  lsblk | grep -v loop
+  143  lsblk | grep -i loop
+  144  echo $SHELL 
+  145  bash --version
+  146  bash --version | head -n 1
+  147  which ls
+  148  ldd /bin/ls | head -n 3~
+  149  ldd /bin/ls | head -n 3
+  150  which nano
+  151  poweroff
+  152  history
+sultan-nooruddin@sultan:~$ -
+-: command not found
+sultan-nooruddin@sultan:~$ cd -
+bash: cd: OLDPWD not set
+sultan-nooruddin@sultan:~$ ls
+123  Desktop  Documents  Downloads  Music  Pictures  Public  Templates  Videos  dotnet  snap
+sultan-nooruddin@sultan:~$ cat 123
+file
+sultan-nooruddin@sultan:~$ del 123
+Command 'del' not found, did you mean:
+  command 'deal' from deb deal (3.1.9-14build1)
+  command 'hdel' from deb hfsutils (3.2.6-16ubuntu2)
+  command 'wdel' from deb wput (0.6.2+git20130413-15)
+  command 'dex' from deb dex (0.10.1-1build1)
+  command 'el' from deb oneliner-el (0.3.6-9.3build1)
+  command 'delp' from deb fp-utils-3.2.2 (3.2.2+dfsg-49)
+  command 'delv' from deb bind9-dnsutils (1:9.20.18-1ubuntu2.1)
+  command 'mdel' from deb mtools (4.0.49-1)
+  command 'dll' from deb brickos (0.9.0.dfsg-16)
+  command 'qdel' from deb gridengine-client (8.1.9+dfsg-13.2)
+  command 'qdel' from deb slurm-wlm-torque (25.11.2-1ubuntu2)
+Try: sudo apt install <deb name>
+sultan-nooruddin@sultan:~$ rm 123
+sultan-nooruddin@sultan:~$ ls
+Desktop  Documents  Downloads  Music  Pictures  Public  Templates  Videos  dotnet  snap
+sultan-nooruddin@sultan:~$ cd /
+sultan-nooruddin@sultan:/$ ls
+bin  boot  cdrom  dev  etc  home  lib  lib64  lost+found  media  mnt  opt  proc  root  run  sbin  snap  srv  swap.img  sys  tmp  usr  var
+sultan-nooruddin@sultan:/$ cd etc
+sultan-nooruddin@sultan:/etc$ ls
+ModemManager                   colord               environment           hosts.allow      logrotate.conf       pcmcia        screenrc           timezone
+NetworkManager                 console-setup        environment.d         hosts.deny       logrotate.d          perl          security           tmpfiles.d
+PackageKit                     cracklib             ethertypes            hp               lsb-release          pki           selinux            tpm2-tss
+UPower                         credstore            fonts                 ifplugd          machine-id           plymouth      sensors.d          ubuntu-advantage
+X11                            credstore.encrypted  fprintd.conf          init             magic                pm            sensors3.conf      ucf.conf
+adduser.conf                   cron.d               fstab                 init.d           magic.mime           pnm2ppa.conf  services           udev
+alsa                           cron.daily           fuse.conf             initramfs-tools  manpath.config       polkit-1      sgml               udisks2
+alternatives                   cron.hourly          fwupd                 inputrc          mime.types           ppp           shadow             ufw
+anacrontab                     cron.monthly         gai.conf              insserv.conf.d   mke2fs.conf          printcap      shadow-            update-manager
+apm                            cron.weekly          gdb                   ipp-usb          modprobe.d           profile       shells             update-motd.d
+apparmor                       cron.yearly          gdm3                  issue            modules              profile.d     skel               update-notifier
+apparmor.d                     crontab              geoclue               issue.net        modules-load.d       protocols     snmp               usb_modeswitch.conf
+apport                         cups                 ghostscript           kdump            mtab                 pulse         speech-dispatcher  usb_modeswitch.d
+apt                            cupshelpers          glvnd                 kernel           nanorc               python3       ssh                vconsole.conf
+avahi                          dbus-1               gnome                 krb5.conf.d      netconfig            python3.14    ssl                vim
+bash.bashrc                    dconf                gnome-remote-desktop  ld.so.cache      netplan              rc0.d         sssd               vtrgb
+bash_completion                debconf.conf         gnutls                ld.so.conf       network              rc1.d         subgid             vulkan
+bash_completion.d              debian_version       gprofng.rc            ld.so.conf.d     networkd-dispatcher  rc2.d         subgid-            wgetrc
+bindresvport.blacklist         debuginfod           groff                 ldap             networks             rc3.d         subuid             whoopsie
+binfmt.d                       default              group                 legal            newt                 rc4.d         subuid-            wpa_supplicant
+bluetooth                      deluser.conf         group-                libao.conf       nftables.conf        rc5.d         sudo.conf          xattr.conf
+brlapi.key                     depmod.d             grub.d                libaudit.conf    nsswitch.conf        rc6.d         sudo_logsrvd.conf  xdg
+brltty                         dhcp                 gshadow               libblockdev      openvpn              rcS.d         sudoers            xemacs21
+brltty.conf                    dhcpcd.conf          gshadow-              libibverbs.d     opt                  resolv.conf   sudoers.d          xml
+ca-certificates                dictionaries-common  gss                   libnl-3          os-release           rmt           supercat           zsh_command_not_found
+ca-certificates.conf           dpkg                 gtk-3.0               locale.conf      pam.conf             rpc           sysctl.d
+ca-certificates.conf.dpkg-old  dracut.conf          hdparm.conf           locale.gen       pam.d                rsyslog.conf  sysstat
+chatscripts                    dracut.conf.d        host.conf             localtime        paperspecs           rsyslog.d     systemd
+chrony                         e2scrub.conf         hostname              logcheck         passwd               rygel.conf    terminfo
+cloud                          emacs                hosts                 login.defs       passwd-              sane.d        thermald
+sultan-nooruddin@sultan:/etc$ ls passwd
+passwd
+sultan-nooruddin@sultan:/etc$ ls passwd-
+passwd-
+sultan-nooruddin@sultan:/etc$ cd passwd
+bash: cd: passwd: Not a directory
+sultan-nooruddin@sultan:/etc$ cat passwd
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/run/ircd:/usr/sbin/nologin
+_apt:x:42:65534::/nonexistent:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+systemd-network:x:998:998:systemd Network Management:/:/usr/sbin/nologin
+dhcpcd:x:996:996:DHCP Client Daemon:/usr/lib/dhcpcd:/bin/false
+messagebus:x:995:995:System Message Bus:/nonexistent:/usr/sbin/nologin
+syslog:x:100:101::/nonexistent:/usr/sbin/nologin
+systemd-resolve:x:989:989:systemd Resolver:/:/usr/sbin/nologin
+_chrony:x:988:988:Chrony Daemon:/var/lib/chrony:/usr/sbin/nologin
+tss:x:987:987:tss user for tpm2:/:/usr/sbin/nologin
+uuidd:x:101:105::/run/uuidd:/usr/sbin/nologin
+systemd-oom:x:986:986:systemd Userspace OOM Killer:/:/usr/sbin/nologin
+whoopsie:x:102:108::/nonexistent:/bin/false
+dnsmasq:x:999:65534:dnsmasq:/var/lib/misc:/usr/sbin/nologin
+avahi:x:103:109:Avahi mDNS daemon:/run/avahi-daemon:/usr/sbin/nologin
+nm-openvpn:x:984:984:NetworkManager OpenVPN:/var/lib/openvpn/chroot:/usr/sbin/nologin
+tcpdump:x:983:983:tcpdump:/nonexistent:/usr/sbin/nologin
+sssd:x:104:110:SSSD system user:/var/lib/sss:/usr/sbin/nologin
+speech-dispatcher:x:105:29:Speech Dispatcher:/run/speech-dispatcher:/bin/false
+usbmux:x:106:46:usbmux daemon:/var/lib/usbmux:/usr/sbin/nologin
+cups-pk-helper:x:107:111:user for cups-pk-helper service:/nonexistent:/usr/sbin/nologin
+fwupd-refresh:x:982:982:Firmware update daemon:/var/lib/fwupd:/usr/sbin/nologin
+saned:x:108:112::/var/lib/saned:/usr/sbin/nologin
+geoclue:x:109:113::/var/lib/geoclue:/usr/sbin/nologin
+cups-browsed:x:110:111::/nonexistent:/usr/sbin/nologin
+pipewire:x:981:981:system user for pipewire:/nonexistent:/usr/sbin/nologin
+hplip:x:111:7:HPLIP system user:/run/hplip:/bin/false
+gnome-remote-desktop:x:980:980:GNOME Remote Desktop:/var/lib/gnome-remote-desktop:/usr/sbin/nologin
+polkitd:x:979:979:User for polkitd:/:/usr/sbin/nologin
+rtkit:x:978:978:RealtimeKit:/proc:/usr/sbin/nologin
+colord:x:977:977:colord colour management daemon:/var/lib/colord:/usr/sbin/nologin
+gdm:x:975:975:Gnome Display Manager:/var/lib/gdm3:/bin/false
+sultan-nooruddin:x:1000:1000:Sultan Nooruddin:/home/sultan-nooruddin:/bin/bash
+sultan-nooruddin@sultan:/etc$ cat n2 passwd
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/run/ircd:/usr/sbin/nologin
+_apt:x:42:65534::/nonexistent:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+systemd-network:x:998:998:systemd Network Management:/:/usr/sbin/nologin
+dhcpcd:x:996:996:DHCP Client Daemon:/usr/lib/dhcpcd:/bin/false
+messagebus:x:995:995:System Message Bus:/nonexistent:/usr/sbin/nologin
+syslog:x:100:101::/nonexistent:/usr/sbin/nologin
+systemd-resolve:x:989:989:systemd Resolver:/:/usr/sbin/nologin
+_chrony:x:988:988:Chrony Daemon:/var/lib/chrony:/usr/sbin/nologin
+tss:x:987:987:tss user for tpm2:/:/usr/sbin/nologin
+uuidd:x:101:105::/run/uuidd:/usr/sbin/nologin
+systemd-oom:x:986:986:systemd Userspace OOM Killer:/:/usr/sbin/nologin
+whoopsie:x:102:108::/nonexistent:/bin/false
+dnsmasq:x:999:65534:dnsmasq:/var/lib/misc:/usr/sbin/nologin
+avahi:x:103:109:Avahi mDNS daemon:/run/avahi-daemon:/usr/sbin/nologin
+nm-openvpn:x:984:984:NetworkManager OpenVPN:/var/lib/openvpn/chroot:/usr/sbin/nologin
+tcpdump:x:983:983:tcpdump:/nonexistent:/usr/sbin/nologin
+sssd:x:104:110:SSSD system user:/var/lib/sss:/usr/sbin/nologin
+speech-dispatcher:x:105:29:Speech Dispatcher:/run/speech-dispatcher:/bin/false
+usbmux:x:106:46:usbmux daemon:/var/lib/usbmux:/usr/sbin/nologin
+cups-pk-helper:x:107:111:user for cups-pk-helper service:/nonexistent:/usr/sbin/nologin
+fwupd-refresh:x:982:982:Firmware update daemon:/var/lib/fwupd:/usr/sbin/nologin
+saned:x:108:112::/var/lib/saned:/usr/sbin/nologin
+geoclue:x:109:113::/var/lib/geoclue:/usr/sbin/nologin
+cups-browsed:x:110:111::/nonexistent:/usr/sbin/nologin
+pipewire:x:981:981:system user for pipewire:/nonexistent:/usr/sbin/nologin
+hplip:x:111:7:HPLIP system user:/run/hplip:/bin/false
+gnome-remote-desktop:x:980:980:GNOME Remote Desktop:/var/lib/gnome-remote-desktop:/usr/sbin/nologin
+polkitd:x:979:979:User for polkitd:/:/usr/sbin/nologin
+rtkit:x:978:978:RealtimeKit:/proc:/usr/sbin/nologin
+colord:x:977:977:colord colour management daemon:/var/lib/colord:/usr/sbin/nologin
+gdm:x:975:975:Gnome Display Manager:/var/lib/gdm3:/bin/false
+sultan-nooruddin:x:1000:1000:Sultan Nooruddin:/home/sultan-nooruddin:/bin/bash
+cat: n2: No such file or directory
+sultan-nooruddin@sultan:/etc$ tail passwd
+geoclue:x:109:113::/var/lib/geoclue:/usr/sbin/nologin
+cups-browsed:x:110:111::/nonexistent:/usr/sbin/nologin
+pipewire:x:981:981:system user for pipewire:/nonexistent:/usr/sbin/nologin
+hplip:x:111:7:HPLIP system user:/run/hplip:/bin/false
+gnome-remote-desktop:x:980:980:GNOME Remote Desktop:/var/lib/gnome-remote-desktop:/usr/sbin/nologin
+polkitd:x:979:979:User for polkitd:/:/usr/sbin/nologin
+rtkit:x:978:978:RealtimeKit:/proc:/usr/sbin/nologin
+colord:x:977:977:colord colour management daemon:/var/lib/colord:/usr/sbin/nologin
+gdm:x:975:975:Gnome Display Manager:/var/lib/gdm3:/bin/false
+sultan-nooruddin:x:1000:1000:Sultan Nooruddin:/home/sultan-nooruddin:/bin/bash
+sultan-nooruddin@sultan:/etc$ tail -n 2 passwd
+gdm:x:975:975:Gnome Display Manager:/var/lib/gdm3:/bin/false
+sultan-nooruddin:x:1000:1000:Sultan Nooruddin:/home/sultan-nooruddin:/bin/bash
+sultan-nooruddin@sultan:/etc$ cat shadow
+cat: shadow: Permission denied
+sultan-nooruddin@sultan:/etc$ cat group
+root:x:0:
+daemon:x:1:
+bin:x:2:
+sys:x:3:
+adm:x:4:syslog,sultan-nooruddin
+tty:x:5:
+disk:x:6:
+lp:x:7:
+mail:x:8:
+news:x:9:
+uucp:x:10:
+man:x:12:
+proxy:x:13:
+kmem:x:15:
+dialout:x:20:
+fax:x:21:
+voice:x:22:
+cdrom:x:24:sultan-nooruddin
+floppy:x:25:
+tape:x:26:
+sudo:x:27:sultan-nooruddin
+audio:x:29:
+dip:x:30:sultan-nooruddin
+www-data:x:33:
+backup:x:34:
+operator:x:37:
+list:x:38:
+irc:x:39:
+src:x:40:
+shadow:x:42:
+utmp:x:43:
+video:x:44:
+sasl:x:45:
+plugdev:x:46:sultan-nooruddin
+staff:x:50:
+games:x:60:
+users:x:100:sultan-nooruddin
+nogroup:x:65534:
+systemd-journal:x:999:
+systemd-network:x:998:
+crontab:x:997:
+dhcpcd:x:996:
+messagebus:x:995:
+syslog:x:101:
+input:x:994:
+sgx:x:993:
+clock:x:992:
+kvm:x:991:
+render:x:990:
+systemd-resolve:x:989:
+_chrony:x:988:
+_ssh:x:102:
+scanner:x:103:saned
+tss:x:987:
+ssl-cert:x:104:
+uuidd:x:105:
+systemd-oom:x:986:
+netdev:x:106:
+bluetooth:x:985:
+rdma:x:107:
+whoopsie:x:108:
+avahi:x:109:
+nm-openvpn:x:984:
+tcpdump:x:983:
+sssd:x:110:
+lpadmin:x:111:sultan-nooruddin
+fwupd-refresh:x:982:
+saned:x:112:
+geoclue:x:113:
+pipewire:x:981:
+gnome-remote-desktop:x:980:
+polkitd:x:979:
+rtkit:x:978:
+colord:x:977:
+gnome-initial-setup:x:976:
+gdm:x:975:
+lxd:x:114:sultan-nooruddin
+sultan-nooruddin:x:1000:
+gamemode:x:974:
+sultan-nooruddin@sultan:/etc$ cat os-release 
+PRETTY_NAME="Ubuntu 26.04 LTS"
+NAME="Ubuntu"
+VERSION_ID="26.04"
+VERSION="26.04 LTS (Resolute Raccoon)"
+VERSION_CODENAME=resolute
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+UBUNTU_CODENAME=resolute
+LOGO=ubuntu-logo
+sultan-nooruddin@sultan:/etc$ lsb release -a
+Command 'lsb' not found, did you mean:
+  command 'lsh' from deb lsh-client (2.1-14build2)
+  command 'ls' from deb coreutils-from-gnu (0.0.0~ubuntu25)
+  command 'ls' from deb coreutils-from-uutils (0.0.0~ubuntu25)
+  command 'ls' from deb coreutils-from-busybox (0.0.0~ubuntu25)
+  command 'ls' from deb coreutils-from-toybox (0.0.0~ubuntu25)
+  command 'ldb' from deb rocksdb-tools (9.11.2-1)
+  command 'msb' from deb mysql-sandbox (3.2.05-1.1)
+  command 'lsc' from deb livescript (1.6.1+dfsg-4)
+  command 'lsd' from deb lsd (1.2.0-1)
+  command 'lsw' from deb suckless-tools (49-1)
+  command 'lb' from deb live-build (3.0~a57-1ubuntu54)
+  command 'lb' from deb open-infrastructure-system-build (20190301-lts1-5build1)
+  command 'sb' from deb lrzsz (0.12.21rc-0.3)
+Try: sudo apt install <deb name>
+sultan-nooruddin@sultan:/etc$ lsb_release -a
+No LSB modules are available.
+Distributor ID:	Ubuntu
+Description:	Ubuntu 26.04 LTS
+Release:	26.04
+Codename:	resolute
+sultan-nooruddin@sultan:/etc$ uname -r
+7.0.0-29-generic
+sultan-nooruddin@sultan:/etc$ uname -a
+Linux sultan 7.0.0-29-generic #29-Ubuntu SMP PREEMPT_DYNAMIC Fri Jul 17 20:52:35 UTC 2026 x86_64 GNU/Linux
+sultan-nooruddin@sultan:/etc$ lscpu | head -n 8
+Architecture:                            x86_64
+CPU op-mode(s):                          32-bit, 64-bit
+Address sizes:                           39 bits physical, 48 bits virtual
+Byte Order:                              Little Endian
+CPU(s):                                  8
+On-line CPU(s) list:                     0-7
+Vendor ID:                               GenuineIntel
+Model name:                              Intel(R) Core(TM) i5-8365U CPU @ 1.60GHz
+sultan-nooruddin@sultan:/etc$ lscpu
+Architecture:                x86_64
+  CPU op-mode(s):            32-bit, 64-bit
+  Address sizes:             39 bits physical, 48 bits virtual
+  Byte Order:                Little Endian
+CPU(s):                      8
+  On-line CPU(s) list:       0-7
+Vendor ID:                   GenuineIntel
+  Model name:                Intel(R) Core(TM) i5-8365U CPU @ 1.60GHz
+    CPU family:              6
+    Model:                   142
+    Thread(s) per core:      2
+    Core(s) per socket:      4
+    Socket(s):               1
+    Stepping:                12
+    CPU(s) scaling MHz:      22%
+    CPU max MHz:             4100.0000
+    CPU min MHz:             400.0000
+    BogoMIPS:                3799.90
+    Flags:                   fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm cons
+                             tant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fm
+                             a cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb ssbd ibrs 
+                             ibpb stibp ibrs_enhanced tpr_shadow flexpriority ept vpid ept_ad fsgsbase tsc_adjust sgx bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt 
+                             intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp vnmi md_clear flush_l1d arch_capabilities
+Virtualization features:     
+  Virtualization:            VT-x
+Caches (sum of all):         
+  L1d:                       128 KiB (4 instances)
+  L1i:                       128 KiB (4 instances)
+  L2:                        1 MiB (4 instances)
+  L3:                        6 MiB (1 instance)
+NUMA:                        
+  NUMA node(s):              1
+  NUMA node0 CPU(s):         0-7
+Vulnerabilities:             
+  Gather data sampling:      Vulnerable
+  Ghostwrite:                Not affected
+  Indirect target selection: Mitigation; Aligned branch/return thunks
+  Itlb multihit:             KVM: Mitigation: Split huge pages
+  L1tf:                      Not affected
+  Mds:                       Not affected
+  Meltdown:                  Not affected
+  Mmio stale data:           Mitigation; Clear CPU buffers; SMT vulnerable
+  Old microcode:             Not affected
+  Reg file data sampling:    Not affected
+  Retbleed:                  Mitigation; Enhanced IBRS
+  Spec rstack overflow:      Not affected
+  Spec store bypass:         Mitigation; Speculative Store Bypass disabled via prctl
+  Spectre v1:                Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+  Spectre v2:                Mitigation; Enhanced / Automatic IBRS; IBPB conditional; PBRSB-eIBRS SW sequence; BHI SW loop, KVM SW loop
+  Srbds:                     Mitigation; Microcode
+  Tsa:                       Not affected
+  Tsx async abort:           Mitigation; TSX disabled
+  Vmscape:                   Mitigation; IBPB before exit to userspace
+sultan-nooruddin@sultan:/etc$ free -h
+               total        used        free      shared  buff/cache   available
+Mem:            14Gi       2.6Gi       9.7Gi       565Mi       3.3Gi        12Gi
+Swap:          4.0Gi          0B       4.0Gi
+sultan-nooruddin@sultan:/etc$ lsblk
+NAME        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS
+loop0         7:0    0     4K  1 loop /snap/bare/5
+loop1         7:1    0  66.8M  1 loop /snap/core24/2124
+loop2         7:2    0  60.7M  1 loop /snap/core26/750
+loop3         7:3    0  16.5M  1 loop /snap/firmware-updater/226
+loop4         7:4    0  14.2M  1 loop /snap/desktop-security-center/188
+loop5         7:5    0 614.5M  1 loop /snap/gnome-46-2404/164
+loop6         7:6    0  91.7M  1 loop /snap/gtk-common-themes/1535
+loop7         7:7    0  14.2M  1 loop /snap/desktop-security-center/206
+loop8         7:8    0 297.8M  1 loop /snap/firefox/9181
+loop9         7:9    0 262.2M  1 loop /snap/firefox/8995
+loop10        7:10   0 606.1M  1 loop /snap/gnome-46-2404/153
+loop11        7:11   0  66.8M  1 loop /snap/core24/1643
+loop12        7:12   0   395M  1 loop /snap/mesa-2404/1165
+loop13        7:13   0  12.7M  1 loop /snap/firmware-updater/262
+loop14        7:14   0   402M  1 loop /snap/mesa-2404/1839
+loop15        7:15   0  18.8M  1 loop /snap/prompting-client/222
+loop16        7:16   0  15.7M  1 loop /snap/snap-store/1367
+loop17        7:17   0  18.4M  1 loop /snap/prompting-client/228
+loop18        7:18   0  11.8M  1 loop /snap/snap-store/1390
+loop19        7:19   0  50.3M  1 loop /snap/snapd/27738
+loop20        7:20   0  44.7M  1 loop /snap/snapd/28254
+loop21        7:21   0   828K  1 loop /snap/snapd-desktop-integration/391
+loop22        7:22   0   580K  1 loop /snap/snapd-desktop-integration/361
+nvme0n1     259:0    0 238.5G  0 disk 
+├─nvme0n1p1 259:1    0     1G  0 part /boot/efi
+└─nvme0n1p2 259:2    0 237.4G  0 part /
+sultan-nooruddin@sultan:/etc$ lsblk | grep -v loop
+NAME        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS
+nvme0n1     259:0    0 238.5G  0 disk 
+├─nvme0n1p1 259:1    0     1G  0 part /boot/efi
+└─nvme0n1p2 259:2    0 237.4G  0 part /
+sultan-nooruddin@sultan:/etc$ echo $SHELL
+/bin/bash
+sultan-nooruddin@sultan:/etc$ bash --version
+GNU bash, version 5.3.9(1)-release (x86_64-pc-linux-gnu)
+Copyright (C) 2025 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+
+This is free software; you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+sultan-nooruddin@sultan:/etc$ which ls
+/usr/bin/ls
+sultan-nooruddin@sultan:/etc$ ldd /bin/ls
+	linux-vdso.so.1 (0x00007bb83294b000)
+	libselinux.so.1 => /usr/lib/x86_64-linux-gnu/libselinux.so.1 (0x00007bb832900000)
+	libgcc_s.so.1 => /usr/lib/x86_64-linux-gnu/libgcc_s.so.1 (0x00007bb831dd2000)
+	libm.so.6 => /usr/lib/x86_64-linux-gnu/libm.so.6 (0x00007bb831cac000)
+	libc.so.6 => /usr/lib/x86_64-linux-gnu/libc.so.6 (0x00007bb831a00000)
+	/lib64/ld-linux-x86-64.so.2 (0x00007bb83294d000)
+	libpcre2-8.so.0 => /usr/lib/x86_64-linux-gnu/libpcre2-8.so.0 (0x00007bb831954000)
+sultan-nooruddin@sultan:/etc$ 
+
